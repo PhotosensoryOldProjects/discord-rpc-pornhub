@@ -1,6 +1,7 @@
 ## Pornhub-Discord-RPC
 
 got bored lol.
+special thanks to the creators of [discord-rpc](https://github.com/discordjs/RPC) and [pornhub.js](https://github.com/pionxzh/pornhub.js) for allowing me to create this useless project.
 
 ## Installation
 
