@@ -6,7 +6,7 @@
 
 • special thanks to the creators of [discord-rpc](https://github.com/discordjs/RPC) and [pornhub.js](https://github.com/pionxzh/pornhub.js) for allowing me to create this useless project.
 
-## Installation
+## Installation (Part 1)
 
 im not really good at this 😢.
 this is how i would normally do it.
@@ -20,7 +20,14 @@ this is how i would normally do it.
 $ git clone https://github.com/photosensory/pornhub-discord-rpc.git
 $ cd path-to-repo
 $ npm install
+$ npm install -D dotenv
 $ forever index.ts
 ```
 
 5. Profit
+
+## Installation (Part 2)
+
+(how to make it do the thing)
+
+genuinely cba i had my fun
