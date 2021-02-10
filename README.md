@@ -21,7 +21,7 @@ $ git clone https://github.com/photosensory/pornhub-discord-rpc.git
 $ cd path-to-repo
 $ npm install
 $ npm install -D dotenv
-$ forever index.ts
+$ forever start index.ts
 ```
 
 5. Profit
@@ -30,4 +30,21 @@ $ forever index.ts
 
 (how to make it do the thing)
 
-genuinely cba i had my fun
+1. Go to the [Discord Developer Portal](https://discord.com/developers)
+2. Create an application. You'll need to note a few things such as it's client ID.
+3. You will need to upload the PornHub logo called `ph_icon` under the rich presence assets.
+4. Create a .env file and copy and paste the code below:
+
+```
+CLIENT_ID=client_id_here
+IMAGE_KEY=ph_icon
+```
+
+(replace client_id_here with the client id)
+
+5. now run `forever start index.js` and it should work.
+
+## idk what to call this
+
+1. How to stop the process
+- Just run `forever stop 0`

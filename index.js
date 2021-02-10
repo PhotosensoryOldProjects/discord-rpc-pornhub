@@ -17,22 +17,36 @@ async function setActivity() {
         client.setActivity({
             details: `Watching: ${video.title}`,
             startTimestamp: Date.now(),
-            largeImageKey: process.env.IMAGE_KEY,
-            instance: false
+            largeImageKey: "ph_icon",
+            instance: true,
+            joinSecret: "025ed05c71f639de8bfaa0d679d7c94b2fdce12f",
+            spectateSecret: "e7eb30d2ee025ed05c71ea495f770b76454ee4e0",
+            matchSecret: "4b2fdce12f639de8bfa7e3591b71a0d679d7c93f",
+            partyMax: 5,
+            partySize: 1,
+            partyId: "ae488379-351d-4a4f-ad32-2b9b01c91657",
         });
     } else {
         videoLength = 1.8e+6;
         client.setActivity({
             details: `Watching: Nothing`,
             startTimestamp: Date.now(),
-            largeImageKey: process.env.IMAGE_KEY,
-            instance: false
+            largeImageKey: "ph_icon",
+            instance: true,
+            joinSecret: "025ed05c71f639de8bfaa0d679d7c94b2fdce12f",
+            spectateSecret: "e7eb30d2ee025ed05c71ea495f770b76454ee4e0",
+            matchSecret: "4b2fdce12f639de8bfa7e3591b71a0d679d7c93f",
+            partyMax: 5,
+            partySize: 1,
+            partyId: "ae488379-351d-4a4f-ad32-2b9b01c91657",
         });
     }
 }
 
 // Ready Listener
 client.on("ready", async () => {
+    console.log("ready");
+
     await setActivity();
     setInterval(async () => {
         await setActivity();
@@ -40,4 +54,4 @@ client.on("ready", async () => {
 });
 
 // Login
-client.login({ clientId: CLIENT_ID });
+client.login({ clientId: "803250094505197593" });
