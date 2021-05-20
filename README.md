@@ -31,5 +31,17 @@ npm stop # This is stopping the RPC
 • Create an application. Note your "CLIENT ID" under the OAuth2 Tab.  </br>
 • You will need to upload the PornHub logo called `ph_icon` under the rich presence assets *(Must be 512x512px Minimum)*.  </br>
 • Rename `.env.example` to `.env` and input your **"CLIENT ID"** you took note of in place of ***"client_id_here"***.  </br>
+• Edit `config.js` via adding or removing search terms in the following format:  </br>
+```js
+module.exports = {
+    "searchTerms": [
+        "Pussy",
+        "Blowjob",
+        "Sex",
+        "Rimjob",
+        "Milf"
+    ]
+}
+```
 • Now start the RPC via `npm start` and it should work.  </br>
 If you wish to stop the RPC, type `npm stop`
