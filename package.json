@@ -1,14 +1,22 @@
 {
   "name": "pornhub-discord-rpc",
   "version": "1.0.0",
-  "description": "",
+  "description": "Randomly picks a video based on the categories it's provided and displays it on your discord status.",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "forever start index.js",
+    "stop": "forever stop 0"
   },
-  "keywords": [],
-  "author": "",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/photosensory/discord-rpc-pornhub.git"
+  },
+  "author": "Morgan (photosensory)",
   "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/photosensory/discord-rpc-pornhub/issues"
+  },
+  "homepage": "https://github.com/photosensory/discord-rpc-pornhub#readme",
   "dependencies": {
     "discord-rpc": "^3.1.4",
     "pornhub.js": "^0.2.4"
