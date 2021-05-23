@@ -1,50 +1,47 @@
-## Pornhub-Discord-RPC
+<p align="center">
+    <strong>PornHub Discord RPC</strong>  </br>
+    <strong>Special Thanks: <a href="https://github.com/discordjs/RPC">discord-rpc</a> & <a href="https://github.com/pionxzh/pornhub.js">pornhub.js</a></strong>
+</p>
 
-• got bored lol.
+<p align="center">
+  <a href="#installation">Installation</a>
+  •
+  <a href="#setup">Setup</a>
+  •
+  <a href="https://choosealicense.com/licenses/mit/">License</a>
+</p>
 
-• ignore my poor coding
 
-• special thanks to the creators of [discord-rpc](https://github.com/discordjs/RPC) and [pornhub.js](https://github.com/pionxzh/pornhub.js) for allowing me to create this useless project.
-
-## Installation (Part 1)
-
-im not really good at this 😢.
-this is how i would normally do it.
-
-1. Download Git from [here](https://git-scm.com/downloads)
-2. Download NodeJS from [here](https://nodejs.org/en/)
-3. Install `forever` by installing it. More info [here](https://www.npmjs.com/package/forever)
-4. Open up windows powershell, and do the following:
-
+#### Installation
+• [Download Git](https://git-scm.com/downloads)  </br>
+• [Download NodeJS](https://nodejs.org/en/)  </br>
+• Install `forever` via `npm install forever -g`  </br>
+• Open Terminal and type the following:  </br>
 ```bash
-$ git clone https://github.com/photosensory/pornhub-discord-rpc.git
-$ cd path-to-repo
-$ npm install
-$ npm install -D dotenv
-$ forever start index.ts
+git clone https://github.com/photosensory/pornhub-discord-rpc.git
+cd path-to-repo
+npm install
+npm install -D dotenv
+npm start # This is starting the RPC
+npm stop # This is stopping the RPC
 ```
 
-5. Profit
-
-## Installation (Part 2)
-
-(how to make it do the thing)
-
-1. Go to the [Discord Developer Portal](https://discord.com/developers)
-2. Create an application. You'll need to note a few things such as it's client ID.
-3. You will need to upload the PornHub logo called `ph_icon` under the rich presence assets.
-4. Create a .env file and copy and paste the code below:
-
+#### Setup
+• Go to the [Discord Developer Portal](https://discord.com/developers)  </br>
+• Create an application. Note your "CLIENT ID" under the OAuth2 Tab.  </br>
+• You will need to upload the PornHub logo called `ph_icon` under the rich presence assets *(Must be 512x512px Minimum)*.  </br>
+• Rename `.env.example` to `.env` and input your **"CLIENT ID"** you took note of in place of ***"client_id_here"***.  </br>
+• Edit `config.js` via adding or removing search terms in the following format:  </br>
+```js
+module.exports = {
+    "searchTerms": [
+        "Pussy",
+        "Blowjob",
+        "Sex",
+        "Rimjob",
+        "Milf"
+    ]
+}
 ```
-CLIENT_ID=client_id_here
-IMAGE_KEY=ph_icon
-```
-
-(replace client_id_here with the client id)
-
-5. now run `forever start index.js` and it should work.
-
-## idk what to call this
-
-1. How to stop the process
-- Just run `forever stop 0`
+• Now start the RPC via `npm start` and it should work.  </br>
+If you wish to stop the RPC, type `npm stop`
