@@ -54,4 +54,4 @@ client.on("ready", async () => {
 });
 
 // Login
-client.login({ clientId: "803250094505197593" });
+client.login({ clientId: CLIENT_ID });
