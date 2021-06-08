@@ -13,7 +13,7 @@ let videoLength = 1.8e+6;
 async function setActivity() {
     const video = await utils.pickVideo();
     if (video !== undefined) {
-        videoLength = utils.javascriptProsWouldLaughAtMeRightNow(video.duration);
+        videoLength = utils.getVideoLength(video.duration);
         client.setActivity({
             details: `Watching: ${video.title}`,
             startTimestamp: Date.now(),
