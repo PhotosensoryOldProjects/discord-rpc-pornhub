@@ -8,8 +8,8 @@ This is a node project which randomly picks a video based on the categories it's
 
 ## Packages used
 
-* [Pornhub.js](https://github.com/discordjs/RPC)
-* [Discord-RPC](https://github.com/pionxzh/pornhub.js)
+* [Pornhub.js](https://github.com/pionxzh/pornhub.js)
+* [Discord-RPC](https://github.com/discordjs/RPC)
 
 ## Table of contents
 
