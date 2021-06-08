@@ -45,8 +45,6 @@ async function setActivity() {
 
 // Ready Listener
 client.on("ready", async () => {
-    console.log("ready");
-
     await setActivity();
     setInterval(async () => {
         await setActivity();
