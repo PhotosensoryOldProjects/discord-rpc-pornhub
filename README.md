@@ -7,7 +7,7 @@ This is a node project which randomly picks a video based on the categories it's
 
 ------
 
-## Packages used & versions
+## Packages used
 
 * [Pornhub.js](https://github.com/pionxzh/pornhub.js) <img src="https://img.shields.io/npm/v/pornhub.js.svg">
 * [Discord-RPC](https://github.com/discordjs/RPC) <img src="https://img.shields.io/npm/v/discord-rpc.svg">
