@@ -1,8 +1,9 @@
 # Pornhub Discord RPC
 
-The most useless project ever.
-
+The most useless project ever... <br>
 This is a node project which randomly picks a video based on the categories it's provided and displays it on your discord status.
+
+<img src="assets/example.jpg">
 
 ------
 
@@ -38,7 +39,9 @@ This is a node project which randomly picks a video based on the categories it's
 
 1. Go to the [Discord Developer Portal](https://discord.com/developers) </br>
 
-2. Create an application. Make a note your "CLIENT ID" under the OAuth2 Tab. </br>
+2. **Create an application.** You can create an application in the Discord Developer Portal by clicking the `Create Application` button, which should be location around the top right of your screen.
+    - I recommend naming the application `Pornhub Web`.
+    - You also want to make a note your "CLIENT ID" under the OAuth2 Tab.
 
 3. You will need to upload the PornHub logo called `ph_icon` under the rich presence assets *(Must be 512x512px Minimum)*. You can click [here](assets/ph_icon.png) to download the provided image.</br>
 
