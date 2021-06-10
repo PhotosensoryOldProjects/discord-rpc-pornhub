@@ -21,11 +21,11 @@ This is a node project which randomly picks a video based on the categories it's
 
 ## Install
 
-1. Download <strong>[Git](https://git-scm.com/downloads)</strong> and <strong>[NodeJS](https://nodejs.org/en/)</strong>. This will be required to make the rpc actually work.
+1. **Install NodeJS and Git**. To start off, you will need to download <strong>[Git](https://git-scm.com/downloads)</strong> and <strong>[NodeJS](https://nodejs.org/en/)</strong>. This will be required to make the rpc actually work.
 
-2. **Install the forever package.**. After installing NodeJS and Git, you can install the forever package by opening up a terminal and running the following command `npm install -g forever`. Forever will be used to keep the rpc script running forever.
+2. **Install the forever package**. After installing NodeJS and Git, you can install the forever package by opening up a terminal and running the following command `npm install -g forever`. Forever will be used to keep the rpc script running forever.
 
-3. Install the core dependencies. You can do this by opening up a terminal and running the following commands.
+3. **Install the core dependencies**. You can do this by opening up a terminal and running the following commands.
 
     ```bash
     $ git clone https://github.com/photosensory/pornhub-discord-rpc.git
@@ -40,7 +40,7 @@ This is a node project which randomly picks a video based on the categories it's
 
 2. Create an application. Make a note your "CLIENT ID" under the OAuth2 Tab. </br>
 
-3. You will need to upload the PornHub logo called `ph_icon` under the rich presence assets *(Must be 512x512px Minimum)*. I have provided an image for you to use, click [here](assets/ph_icon.png).</br>
+3. You will need to upload the PornHub logo called `ph_icon` under the rich presence assets *(Must be 512x512px Minimum)*. You can click [here](assets/ph_icon.png) for an image I have provided.</br>
 
 4. Rename `.env.example` to `.env` and input your **"CLIENT ID"** you took note of in place of ***"client_id_here"***. </br>
 
@@ -63,13 +63,13 @@ This is a node project which randomly picks a video based on the categories it's
 
 ## Usage
 
-Starting the script:
+To start the RPC script:
 
 ```bash
 $ npm run start
 ```
 
-Stopping the script:
+To stop the RPC script:
 
 ```bash
 $ npm run stop
