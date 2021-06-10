@@ -40,7 +40,7 @@ This is a node project which randomly picks a video based on the categories it's
 
 2. Create an application. Make a note your "CLIENT ID" under the OAuth2 Tab. </br>
 
-3. You will need to upload the PornHub logo called `ph_icon` under the rich presence assets *(Must be 512x512px Minimum)*. You can click [here](assets/ph_icon.png) for an image I have provided.</br>
+3. You will need to upload the PornHub logo called `ph_icon` under the rich presence assets *(Must be 512x512px Minimum)*. You can click [here](assets/ph_icon.png) to download the provided image.</br>
 
 4. Rename `.env.example` to `.env` and input your **"CLIENT ID"** you took note of in place of ***"client_id_here"***. </br>
 
