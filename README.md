@@ -22,7 +22,7 @@ This is a node project which randomly picks a video based on the categories it's
 
 ## Install
 
-1. **Install NodeJS and Git**. To start off, you will need to download <a href="https://git-scm.com/downloads" target="_blank"><strong>Git</strong></a> and <a href="https://nodejs.org/en/" target="_blank"><strong>NodeJS</strong></a>.This will be required to make the rpc actually work.
+1. **Install NodeJS and Git**. To start off, you will need to download <a href="https://git-scm.com/downloads" target="_blank"><strong>Git</strong></a> and <a href="https://nodejs.org/en/" target="_blank"><strong>NodeJS</strong></a>. This will be required to make the rpc actually work.
 
 2. **Install the forever package**. After installing NodeJS and Git, you can install the forever package by opening up a terminal and running the following command `npm install -g forever`. Forever will be used to keep the rpc script running forever.
 
