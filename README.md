@@ -39,7 +39,7 @@ This is a node project which randomly picks a video based on the categories it's
 
 1. Go to the [Discord Developer Portal](https://discord.com/developers) </br>
 
-2. **Create an application.** You can create an application in the Discord Developer Portal by clicking the `Create Application` button, which should be location around the top right of your screen.
+2. **Create an application.** You can create an application in the Discord Developer Portal by clicking the `Create Application` button, which should be located around the top right of your screen.
     - I recommend naming the application `Pornhub Web`.
     - You also want to make a note your "CLIENT ID" under the OAuth2 Tab.
 
