@@ -18,7 +18,7 @@
   },
   "homepage": "https://github.com/photosensory/discord-rpc-pornhub#readme",
   "dependencies": {
-    "discord-rpc": "^3.1.4",
+    "discord-rpc": "^4.0.1",
     "pornhub.js": "^0.2.4"
   },
   "devDependencies": {
