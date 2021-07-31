@@ -30,7 +30,7 @@ This is a node project which randomly picks a video based on the categories it's
 
     ```bash
     $ git clone https://github.com/photosensory/pornhub-discord-rpc.git
-    $ cd path-to-repo
+    $ cd discord-rpc-pornhub
     $ npm install
     $ npm install -D dotenv
     ```
