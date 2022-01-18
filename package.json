@@ -22,6 +22,6 @@
     "pornhub.js": "^0.2.4"
   },
   "devDependencies": {
-    "dotenv": "^10.0.0"
+    "dotenv": "^14.2.0"
   }
 }
