@@ -19,7 +19,7 @@
   "homepage": "https://github.com/photosensory/discord-rpc-pornhub#readme",
   "dependencies": {
     "discord-rpc": "^4.0.1",
-    "pornhub.js": "^0.2.4"
+    "pornhub.js": "^1.3.1"
   },
   "devDependencies": {
     "dotenv": "^10.0.0"
